@@ -332,7 +332,9 @@ button {
 }
 
 /* ====== Portfolio ====== */
-
+.portfolio-section {
+  padding: 96px 0 120px;
+}
 /* Filters */
 .button-filter {
   font-family: var(--primary-font);
@@ -340,7 +342,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding: 10px 22px;
+  padding: 12px 24px;
   color: #4d5ae5;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
@@ -354,6 +356,7 @@ button {
   box-shadow: 0px 3px 1px #0000001a, 0px 2px 1px #00000014,
     0px 2px 2px #0000001f;
   border-radius: 4px;
+  border: 1px solid transparent;
 }
 
 /* =====Filters===== */
@@ -361,17 +364,13 @@ button {
 .filter-list-container {
   justify-content: center;
   align-items: center;
+  margin-bottom: 72px;
 }
 .filter-list:not(:last-child) {
   margin-right: 24px;
 }
 
 /* =====Project Card */
-
-.project-container {
-  padding-top: 72px;
-  padding-bottom: 72px;
-}
 
 .container-list {
   flex-wrap: wrap;
