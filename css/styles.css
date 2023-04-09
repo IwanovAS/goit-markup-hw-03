@@ -332,7 +332,7 @@ button {
 }
 
 /* ====== Portfolio ====== */
-.portfolio-section {
+.filter-card-section {
   padding: 96px 0 120px;
 }
 /* Filters */
@@ -346,6 +346,7 @@ button {
   color: #4d5ae5;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
+  border-top: none;
   border-radius: 4px;
 }
 
@@ -365,9 +366,7 @@ button {
   justify-content: center;
   align-items: center;
   margin-bottom: 72px;
-}
-.filter-list:not(:last-child) {
-  margin-right: 24px;
+  column-gap: 24px;
 }
 
 /* =====Project Card */
@@ -375,6 +374,7 @@ button {
 .container-list {
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 48px;
 }
 
 .project-text {
@@ -382,5 +382,5 @@ button {
 }
 
 .card-list {
-  margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
