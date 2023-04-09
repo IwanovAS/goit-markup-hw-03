@@ -354,7 +354,6 @@ button {
   color: var(--color-button);
   background-color: #f4f4fd;
   border: 1px solid var(--color-border);
-  /* border-top: none; */
   border-radius: 4px;
   cursor: pointer;
 }
