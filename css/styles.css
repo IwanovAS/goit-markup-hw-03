@@ -101,6 +101,7 @@ button {
 }
 
 .menu-link {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -117,6 +118,10 @@ button {
 .address {
   font-style: normal;
   margin-left: auto;
+}
+
+.addres-list {
+  gap: 40px;
 }
 
 .address-link {
@@ -359,6 +364,7 @@ button {
     0px 2px 2px #0000001f;
   border-radius: 4px;
   border: 1px solid transparent;
+  border: var(--color-border);
 }
 
 /* =====Filters===== */
