@@ -364,7 +364,6 @@ button {
     0px 2px 2px #0000001f;
   border-radius: 4px;
   border: 1px solid transparent;
-  border: var(--color-border);
 }
 
 /* =====Filters===== */
